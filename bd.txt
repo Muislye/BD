@@ -1,0 +1,61 @@
+ALTER TABLE El usuario puede modificar una tabla
+
+AND Puede seleccionar filas según múltiples condiciones conectadas mediante AND u OR
+
+AS Sirve para ponerle alias a una columna al realizar un query
+
+COUNT La función COUNT sólo cuenta los valores no nulos
+
+CREATE TABLE Define una tabla
+
+DROP Borra tablas
+
+INSERT añade datos a la BD
+
+UPDATE cambia los valores de las columnas especificadas
+
+
+SELEC lo que quieres mostrar
+
+FROM De donde voy a tomar los datos
+
+WHERE los filtros de los datos que quieres mostrar
+
+LIKE Nos ayuda a filtrar los registros cuando solo conocemos una parte de la informacion
+
+BETWEEN Nos ayuda a filtrar registros que esten entre un rango
+
+GROUP BY Los rubros por los que me interesa agrupar la infirmacion
+
+ORDER BY El onden en que quiero presentar mi informacion
+
+ASC Ordena de forma ascendente
+
+DESC Ordena de forma descendente
+
+HAVING Los filtros que quiero que mis datos agrupados tengan
+
+LIMIT La cantidad de registros que quiero
+
+Nested queries
+Significan que dentro de un query podemos hacer otro query. Esto sirve para hacer join de tablas, estando una en memoria. También teniendo un query como condicional del otro.
+
+Tipos de datos en Firestore:
+
+String: Cualquier tipo de valor alfanumérico
+
+Number: Soporta enteros y flotantes.
+
+Boolenan: Los clásicos valores True y False
+
+Map: Permite agregar un documento dentro de otro.
+
+Array: Permite agregar un conjunto de datos (soporte multi type) sin nombre e identificador.
+
+Null: Indica que no se ha definido un valor.
+
+Timestamp: Permite almacenar fechas (guarda el año, mes, día y hora).
+
+Geopoint: Guarda una localización geográfica (coordenadas latitud-longitud).
+
+Reference: Permite referencia un documento (relaciona dos documentos, no importa su colección).
